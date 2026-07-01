@@ -439,3 +439,115 @@ footer{
     height:auto;
     display:block;
 }
+
+
+
+
+/* =====================================
+   MOBILE RESPONSIVE DESIGN
+===================================== */
+
+@media (max-width:768px){
+
+    /* Navigation */
+    nav{
+        flex-direction:column;
+        padding:15px;
+    }
+
+    .logo{
+        font-size:28px;
+        margin-bottom:15px;
+    }
+
+    .menu{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    .menu a{
+        font-size:16px;
+    }
+
+    /* Hero Image */
+    .hero-image{
+        height:220px;
+        object-fit:cover;
+        object-position:center;
+    }
+
+    /* Hero Text */
+    .hero-text{
+        padding:30px 15px;
+    }
+
+    .hero-text h1{
+        font-size:34px;
+    }
+
+    .hero-text h2{
+        font-size:22px;
+    }
+
+    .hero-text p{
+        font-size:16px;
+    }
+
+    .hero-buttons{
+        display:flex;
+        flex-direction:column;
+        gap:15px;
+        align-items:center;
+    }
+
+    .hero-buttons button{
+        width:90%;
+        max-width:300px;
+    }
+
+    /* Featured Review */
+    .featured-card{
+        flex-direction:column;
+        text-align:center;
+        padding:20px;
+    }
+
+    .featured-card img{
+        width:100%;
+        max-width:320px;
+        margin:auto;
+    }
+
+    /* Latest Review Cards */
+    .card-container{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:25px;
+    }
+
+    .card{
+        width:90%;
+        max-width:350px;
+    }
+
+    /* Why Choose Us */
+    .features{
+        display:flex;
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .feature{
+        width:90%;
+        margin:auto;
+    }
+
+    /* Footer */
+    footer{
+        text-align:center;
+        padding:20px;
+    }
+}
